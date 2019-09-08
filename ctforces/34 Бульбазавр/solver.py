@@ -1,4 +1,6 @@
 '''
+https://ctforces.com/tasks/34/
+
 The main idea - small N (64 bit) can be bruteforce easily.
 '''
 
