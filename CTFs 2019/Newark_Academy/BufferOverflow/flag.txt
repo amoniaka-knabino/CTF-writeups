@@ -1,1 +1,1 @@
-azazaz
+nactf{it_is_a_test_flag}
