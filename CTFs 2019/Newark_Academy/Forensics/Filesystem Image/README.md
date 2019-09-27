@@ -15,7 +15,7 @@
 
 We got a filesystem image. I used fatcat for browsing it(https://github.com/Gregwar/fatcat)
 
-Firstly, we need to * offset (tutorial: https://github.com/Gregwar/fatcat/blob/master/docs/partition.md)
+Firstly, we need to select offset (tutorial: https://github.com/Gregwar/fatcat/blob/master/docs/partition.md)
 
 It is 1*512 in our case.
 
