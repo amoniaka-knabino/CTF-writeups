@@ -23,10 +23,13 @@ When we'll try to extraxt using fatcat ./img.iso -O 512 -x DIRNAME
 
 We will get such output:
 
->Extracting /lq/wk/zo/py/hu/flag.txt to DIRNAME/lq/wk/zo/py/hu/flag.txt
->They'll never find this! HAhahAHahAHAHaHAHAHAA
->:)
->Segmentation fault
+
+```
+Extracting /lq/wk/zo/py/hu/flag.txt to DIRNAME/lq/wk/zo/py/hu/flag.txt
+They'll never find this! HAhahAHahAHAHaHAHAHAA
+:)
+Segmentation fault
+```
 
 The task is solved.
 
