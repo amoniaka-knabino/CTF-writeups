@@ -1,0 +1,27 @@
+"""
+Hint: too close
+
+If p is too close to q, we can try Fermat's factorization.
+"""
+from sage.all import *
+
+def basic_fermat(n):
+    a = ceil(sqrt(n))
+    b2 = a^2 - n
+    while not is_square(b2):
+        a += 1
+        b2 = a^2 - n
+    return (a-sqrt(b2), a+sqrt(b2))
+
+n = 9754240130179587872802263394776514118202837448930355942907868328784445191072963342447243616313452645777162924481691316213304494941409539027067672901834517105802783664691553148474783637982327851913368457136594634856206212558918719080677902721221195922777513175633739632044017920122468196993
+
+p = basic_fermat(n)
+print(p)
+
+q = n//p
+
+phi = (p-1)*(q-1)
+
+print(q)
+print(' ')
+print(phi)
